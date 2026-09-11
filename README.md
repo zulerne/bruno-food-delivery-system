@@ -12,6 +12,11 @@ Restaurant/     — Restaurant Service (separate service)
 environments/   — environment variables (Local.yml)
 ```
 
+## Prerequisites
+
+- [Bruno](https://github.com/usebruno/bruno) — open-source API client (download the desktop app from the releases page)
+- Git
+
 ## Getting Started
 
 ```bash
