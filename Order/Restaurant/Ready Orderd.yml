@@ -1,0 +1,24 @@
+info:
+  name: Ready Orderd
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: "{{order_url}}/restaurant/orders/{{order_id}}/accept"
+  headers:
+    - name: X-Restaurant-ID
+      value: "1"
+  auth: inherit
+
+runtime:
+  variables:
+    - name: order_id
+      value: order_id_test
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

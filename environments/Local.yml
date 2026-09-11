@@ -1,0 +1,5 @@
+name: Local
+variables:
+  - name: order_url
+    value: localhost:8080
+    description: ""

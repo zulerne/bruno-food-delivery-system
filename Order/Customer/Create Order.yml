@@ -1,0 +1,25 @@
+info:
+  name: Create Order
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{order_url}}/orders"
+  headers:
+    - name: X-Customer-ID
+      value: test
+  body:
+    type: json
+    data: |-
+      {
+        "delivery_address": "address"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

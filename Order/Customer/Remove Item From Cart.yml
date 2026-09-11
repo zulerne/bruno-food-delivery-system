@@ -1,0 +1,26 @@
+info:
+  name: Remove Item From Cart
+  type: http
+  seq: 3
+
+http:
+  method: DELETE
+  url: "{{order_url}}/cart/items/{{menu_item_id}}"
+  headers:
+    - name: X-Customer-ID
+      value: test
+  auth: inherit
+
+runtime:
+  variables:
+    - name: menu_item_id
+      value:
+        type: number
+        data: "1"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
