@@ -13,18 +13,16 @@ http:
     type: json
     data: |-
       {
-        "restaurant_id": "ss",
-        "quantity": "ss",
-        "instructions": "ss"
+        "restaurant_id": "1",
+        "quantity": 1,
+        "instructions": ""
       }
   auth: inherit
 
 runtime:
   variables:
     - name: menu_item_id
-      value:
-        type: number
-        data: "1"
+      value: "1"
 
 settings:
   encodeUrl: true

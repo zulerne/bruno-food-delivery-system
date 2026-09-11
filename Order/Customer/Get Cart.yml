@@ -17,4 +17,4 @@ settings:
   maxRedirects: 5
   forwardAuthorizationHeader: true
 
-docs: This request retrieves a list of users from the JSONPlaceholder API.
+docs: This request retrieves the current customer's cart.

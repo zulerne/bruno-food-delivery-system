@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{order_url}}/orders/{{item_id}}/cancel"
+  url: "{{order_url}}/orders/{{order_id}}/cancel"
   headers:
     - name: X-Customer-ID
       value: test
@@ -13,7 +13,7 @@ http:
 
 runtime:
   variables:
-    - name: item_id
+    - name: order_id
       value: "1"
 
 settings:

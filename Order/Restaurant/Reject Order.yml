@@ -9,6 +9,12 @@ http:
   headers:
     - name: X-Restaurant-ID
       value: "1"
+  body:
+    type: json
+    data: |-
+      {
+        "reason": "Unable to fulfill the order"
+      }
   auth: inherit
 
 runtime:

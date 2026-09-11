@@ -14,4 +14,4 @@ settings:
   maxRedirects: 5
   forwardAuthorizationHeader: true
 
-docs: This request retrieves a list of users from the JSONPlaceholder API.
+docs: This request checks whether the Order Service process is running.

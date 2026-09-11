@@ -14,9 +14,7 @@ http:
 runtime:
   variables:
     - name: menu_item_id
-      value:
-        type: number
-        data: "1"
+      value: "1"
 
 settings:
   encodeUrl: true

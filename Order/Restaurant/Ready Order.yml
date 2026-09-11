@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: "{{order_url}}/restaurant/orders/{{order_id}}/accept"
+  url: "{{order_url}}/restaurant/orders/{{order_id}}/ready"
   headers:
     - name: X-Restaurant-ID
       value: "1"
