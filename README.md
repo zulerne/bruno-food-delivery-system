@@ -2,6 +2,8 @@
 
 Bruno API collection for a food delivery system. Designed for team collaboration via Git.
 
+Built for the educational project [go-mentor-junior](https://github.com/meetmorrowsolonmars/go-mentor-junior).
+
 ## Structure
 
 ```
